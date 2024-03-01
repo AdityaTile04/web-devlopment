@@ -1,0 +1,17 @@
+/* CSS Grid */
+/* Setting a container's display to grid will make all children grid items */
+
+.container {
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: black;
+  display: grid;
+}
+.item {
+  width: 100px;
+  height: 50px;
+  background-color: aqua;
+  border: 2px solid black;
+  text-align: center;
+}
