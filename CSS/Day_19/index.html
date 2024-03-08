@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="./assets/logo.png" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./asset/logo.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -36,7 +36,7 @@
         <div class="library">
           <div class="options">
             <div class="lib-option nav-option">
-              <img src="./assets/library_icon.png" alt="" />
+              <img src="./asset/library_icon.png" alt="" />
               <a href="#">Your Library</a>
             </div>
             <div class="icons">
@@ -58,8 +58,87 @@
           </div>
         </div>
       </div>
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <img src="./asset/backward_icon.png" />
+            <img src="./asset/forward_icon.png" class="hide" />
+          </div>
+          <div class="sticky-nav-options">
+            <button class="badge nav-item hide">Explore Premium</button>
+            <button class="badge nav-item dark-badge">
+              <i
+                class="fa-regular fa-circle-down"
+                style="margin-right: 5px"
+              ></i>
+              Install App
+            </button>
+            <i class="fa-regular fa-user nav-item"></i>
+          </div>
+        </div>
+
+        <h2>Recently played</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="./asset/card1img.jpeg" alt="" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+        </div>
+
+        <h2>Trending now near you</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="./asset/card2img.jpeg" alt="" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./asset/card3img.jpeg" alt="" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./asset/card4img.jpeg" alt="" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./asset/card5img.jpeg" alt="" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./asset/card3img.jpeg" alt="" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+        </div>
+
+        <h2>Featured charts</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="./asset/card1img.jpeg" alt="" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./asset/card5img.jpeg" alt="" class="card-img" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./asset/card6img.jpeg" alt="" class="card-img" />
+            <p class="card-title">Top Songs - India</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+        </div>
+       <div class="footer">
+        <div class="line"></div>
+       </div>
+      </div>
     </div>
-    <div class="main-content">Main content</div>
+
     <div class="music-player">Music player</div>
   </body>
 </html>
