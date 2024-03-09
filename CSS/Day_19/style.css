@@ -180,9 +180,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.album {
-  width: 25%;
-}
+
 .player {
   width: 50%;
 }
@@ -225,4 +223,140 @@ a {
   background-color: #1bd760;
   border-radius: 50%;
   margin-top: -6px;
+}
+.album {
+  width: 25%;
+  display: flex;
+}
+.album img {
+  height: 56px;
+  width: 56px;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+
+.song a {
+  /* font-size: 0.85rem; */
+  height: 19.2px;
+  width: 56.75px;
+  padding: 0px 12px 0px 12px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  position: relative;
+  top: 12%;
+}
+.song a:hover {
+  text-decoration: underline;
+}
+.artist {
+  height: 15.2px;
+  position: absolute;
+  top: 30px;
+  left: 65px;
+  padding: 0px 12px 0px 12px;
+  margin-top: 0.4rem;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.artist:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.album i {
+  height: 1rem;
+  width: 1rem;
+  padding: 10px 10px;
+  position: relative;
+  top: 10px;
+  opacity: 0.7;
+}
+.album i:hover {
+  opacity: 1;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+.pic1 {
+  opacity: 0.8;
+}
+.pic1:hover {
+  opacity: 1;
+}
+.pic2 {
+  opacity: 0.8;
+}
+.pic2:hover {
+  opacity: 1;
+}
+.pic3 {
+  opacity: 0.5;
+}
+.pic3:hover {
+  opacity: 1;
+}
+.pic4 {
+  opacity: 0.5;
+}
+.pic4:hover {
+  opacity: 1;
+}
+.pic5 {
+  opacity: 0.7;
+}
+.pic5:hover {
+  opacity: 1;
+}
+.pic6 {
+  opacity: 0.7;
+}
+.pic6:hover {
+  opacity: 1;
+}
+.controls i {
+  opacity: 0.5;
+}
+.controls i:hover {
+  opacity: 1;
+}
+.ctrl-progress-bar {
+  appearance: none;
+  width: 5.81rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+.ctrl-progress-bar::-webkit-slider-runnable-track {
+  background-color: #ddd;
+  border-radius: 100px;
+  height: 0.2rem;
+  margin: -6;
+}
+.ctrl-progress-bar::-webkit-slider-runnable-track:hover {
+  background-color: #1bd760;
+}
+.ctrl-progress-bar::-webkit-slider-thumb {
+  appearance: none;
+  background-color: #ddd;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  margin-top: -2px;
+  opacity: 0;
+}
+.ctrl-progress-bar::-webkit-slider-thumb:hover {
+  opacity: 1;
+}
+.controls img {
+  height: 1rem;
+  width: 1rem;
+}
+.controls i {
+  width: 1rem;
+  height: 1rem;
 }
