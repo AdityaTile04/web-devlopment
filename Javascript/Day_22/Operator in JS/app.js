@@ -80,3 +80,9 @@ console.log(numA == numB);
 // 6.!= (Not Equal to)
 
 console.log(numA != numB);
+
+// Comparision for all non-numbers
+// Example
+
+a > b;
+b < a;
