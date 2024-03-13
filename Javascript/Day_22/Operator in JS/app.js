@@ -81,7 +81,7 @@ console.log(numA == numB);
 
 console.log(numA != numB);
 
-// Comparision for all non-numbers
+// Comparision for  non-numbers
 // Example
 
 a > b;
