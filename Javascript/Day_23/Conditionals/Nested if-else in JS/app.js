@@ -1,4 +1,5 @@
-// Nested if-else in JS
+// Nested if-else in JS:
+// Nesting is writing if-else in side if-else statement.it can have many levels
 
 // Example 1
 let marks = 80;
@@ -13,4 +14,3 @@ if (marks >= 35) {
 } else {
   console.log("better luck next time");
 }
-
