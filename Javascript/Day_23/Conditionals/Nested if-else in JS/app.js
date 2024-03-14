@@ -14,3 +14,16 @@ if (marks >= 35) {
 } else {
   console.log("better luck next time");
 }
+
+// Example 2
+
+let fruit = "Mango";
+
+if (fruit === "Apple") {
+  console.log("Price is :");
+  if (fruit === "Apple") {
+    console.log("100rs per kg");
+  }
+} else {
+  console.log("Please enter valid fruit name ");
+}

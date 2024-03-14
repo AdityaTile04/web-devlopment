@@ -45,3 +45,19 @@ if (cgpa >= 7.5) {
 } else if (cgpa <= 7) {
   console.log("Better luck next time");
 }
+
+// example 5
+
+let fruit = "Watermelon";
+
+if (fruit === "Apple") {
+  console.log("Peice is 100rs per kg");
+} else if (fruit === "Mango") {
+  console.log("Price is 150rs per kg");
+} else if (fruit === "Grapes") {
+  console.log("Price is 70rs per kg");
+} else if (fruit === "Watermelon") {
+  console.log("Price is 40rs ");
+} else {
+  console.log("Please enter valid fruit name");
+}
