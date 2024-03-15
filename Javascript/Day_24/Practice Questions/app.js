@@ -14,3 +14,33 @@ if (num % 3 === 0 && (num + 1 == 15 || num - 1 == 11)) {
 } else {
   console.log("Unsafe");
 }
+
+// switch statement practice question
+
+let day = 7;
+
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Sataurday");
+    break;
+  case 7:
+    console.log("Sunday");
+    break;
+  default:
+    console.log("You type wrong number");
+}
