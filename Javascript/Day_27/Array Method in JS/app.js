@@ -13,7 +13,7 @@ let friends = ["Aditya", "Saurabh", "Rushi", "Kunal"];
 let addFriends = friends.push("Vishal");
 console.log(friends);
 
-// Example 2
+// Example 3
 let info = ["Aditya", 70, 8.5];
 let addInfo = info.push("A");
 console.log(info);
@@ -74,3 +74,34 @@ let animals = ["Tiger", "Lion", "Elephant"];
 let delAni = animals.shift();
 console.log(animals);
 console.log(delAni);
+
+//! 5.indexOf method
+// Return index of something
+
+// Example 1
+let primary = ["red", "green", "blue"];
+let find = primary.indexOf("blue");
+console.log(find);
+
+// Example 2
+let marks = [90, 50, 70, 60, 80, 100];
+let fIndex = marks.indexOf(100);
+console.log(fIndex);
+
+// Example 3
+let games = ["Cricket", "Football", "Carrom", "Golf", "Baseball", "Hockey"];
+let fGames = games.indexOf("Hockey");
+console.log(fGames);
+
+//! includes method
+// Search for a value
+
+// Exapmle 1
+let languages = ["English", "Hindi", "Marathi", "Tamil"];
+let lang = languages.includes("Marathi");
+console.log(lang);
+
+// Examle 2
+let branches = ["Computer", "IT", "Electrical", "AIDS", "Mechanical"];
+let branch = branches.includes("IT");
+console.log(branch);
