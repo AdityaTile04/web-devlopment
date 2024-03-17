@@ -105,3 +105,60 @@ console.log(lang);
 let branches = ["Computer", "IT", "Electrical", "AIDS", "Mechanical"];
 let branch = branches.includes("IT");
 console.log(branch);
+
+//! Concatenation & Reverse
+
+//! 1.concat method
+// merge two array
+
+// Example 1
+let color1 = ["Red", "Green", "Blue"];
+let color2 = ["Yellow", "Orange", "Purple"];
+let merge = color1.concat(color2);
+console.log(merge);
+
+// Example 2
+let players = ["Virat", "Rohit", "Rahul", "Mahindra"];
+let playerNumbers = [18, 45, 1, 7];
+let mergeNum = players.concat(playerNumbers);
+console.log(mergeNum);
+
+// Example 3
+let meta = ["facebook", "Instagram", "Whatsapp"];
+let maang = ["Microsoft", "Apple", "Adobe", "Netflix", "Google"];
+let mergeGroup = meta.concat(maang);
+console.log(mergeGroup);
+
+//! 2.reverse method
+// Reverse an Array
+
+// Example 1
+let array = ["Aditya", "Tile"];
+let rev = array.reverse();
+console.log(rev);
+
+// Example 2
+let number = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+let revNum = number.reverse();
+console.log(revNum);
+
+//! Slice Method
+// Copies a portion of an array
+
+// Exapmle 1
+let carBrands = ["audi", "bmw", "wolkswagon", "toyota"];
+console.log(carBrands.slice(1));
+console.log(carBrands.slice(1, 3));
+console.log(carBrands.slice(-1));
+
+// Example 2
+let heroName = ["Siddharth", "Vicky", "Sushant", "Varun"];
+console.log(heroName.slice(1));
+console.log(heroName.slice(0, 3));
+console.log(heroName.slice(-2));
+
+// Example 3
+let movies = ["Endgame", "Infinity War", "The Dark Knight", "Intersteller"];
+console.log(movies.slice(2));
+console.log(movies.slice(1, 3));
+console.log(movies.slice(-1));
