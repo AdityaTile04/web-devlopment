@@ -1,4 +1,4 @@
-//! Slice Method in JS
+//! slice Method in JS
 // Return a part of the original string as a new string
 
 //Example 1
