@@ -160,5 +160,5 @@ console.log(heroName.slice(-2));
 // Example 3
 let movies = ["Endgame", "Infinity War", "The Dark Knight", "Intersteller"];
 console.log(movies.slice(2));
-console.log(movies.slice(1,3));
+console.log(movies.slice(1, 3));
 console.log(movies.slice(-1));
