@@ -7,6 +7,11 @@ for (let i = 1; i <= 10; i++) {
 }
 
 // Example 2
-for (let num = 10; num <=100; num++) {
-    console.log(num);
+for (let num = 10; num <= 100; num++) {
+  console.log(num);
+}
+
+// Example 3
+for (let num2 = (i = 50); i <= 100; num2++) {
+  console.log(num2);
 }
