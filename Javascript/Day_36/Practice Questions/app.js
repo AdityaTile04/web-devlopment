@@ -65,3 +65,17 @@ function conact(str) {
   return result;
 }
 console.log(conact(str));
+
+//! Practice Question 7
+
+let greet = "hello";
+
+function changeGreet() {
+  let greet = "namaste";
+  console.log(greet);
+  function innerGreet() {
+    console.log(greet);
+  }
+}
+console.log(greet);
+changeGreet();
